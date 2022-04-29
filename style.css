@@ -32,6 +32,26 @@ img.profile {
   height: 5em;
 }
 
+.pictures {
+  min-width: 0;
+}
+
+.pic {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.pictures {
+  flex-wrap: nowrap;
+}
+
 img.background {
   display: inline-block;
   width: 100%;
