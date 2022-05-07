@@ -69,6 +69,10 @@ h1 {
   align-self: center;
 }
 
+h2 {
+  margin-left: 1em;
+
+}
 
 /* dropdown and part of navs from here */
 
@@ -86,6 +90,7 @@ ul {
   li {
     float: left;
   }
+
   
   li a, .dropbtn {
     display: inline-block;
@@ -98,7 +103,7 @@ ul {
   li a:hover, .dropdown:hover .dropbtn {
     background-color: red;
   }
-  
+
   li.dropdown {
     display: inline-block;
     flex-grow: 2;
@@ -131,5 +136,5 @@ ul {
   /* Moving link to my another website to the left  */
   li.link {
     justify-content: flex-end;
-    margin-right: 1em;
+    /* margin-right: 1em; */
   }
